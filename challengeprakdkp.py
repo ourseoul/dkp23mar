@@ -16,7 +16,6 @@ def cari_nilai_terkecil(array):
             nilai_terkecil = nilai
     return nilai_terkecil
 
-# Contoh penggunaan program
 if __name__ == "__main__":
     # Masukkan nilai-nilai integer ke dalam array
     nilai_array = [int(x) for x in input("Masukkan nilai-nilai integer, pisahkan dengan spasi: ").split()]
